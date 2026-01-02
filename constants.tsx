@@ -1,5 +1,5 @@
 
-import { PortfolioItem, Review, FAQItem } from './types';
+import { PortfolioItem, Review, FAQItem } from './types.ts';
 
 export const INITIAL_PORTFOLIO: PortfolioItem[] = [
   {
@@ -66,7 +66,7 @@ export const FAQS: FAQItem[] = [
   },
   {
     question: "저작권은 누구에게 있나요?",
-    answer: "최종 확정된 결과물의 저작권은 고객님께 귀속되며, 상업적 이용이 가능합니다. (포트폴리오 사용 제외 시 사전 협의 필요)"
+    answer: "최종 확정된 결과물의 저작권은 고객님께 귀속되며, 상업적 이용이 가능합니다."
   },
   {
     question: "기간은 얼마나 걸리나요?",
